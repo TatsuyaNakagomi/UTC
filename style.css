@@ -1,0 +1,13 @@
+.circle {
+  width: 200px;        /* 直径（半径100px × 2） */
+  height: 200px;       /* 直径 */
+  background: red;     /* 赤色 */
+  border-radius: 50%;  /* 角を完全に丸めて円にする */
+}
+body {
+  margin: 0;           /* 余計な余白を消す */
+  height: 100vh;       /* 画面の高さいっぱい(ViewPort Height)を確保 */
+  display: flex;       /* Flexboxを有効にする */
+  justify-content: center; /* 左右の中央 */
+  align-items: center;     /* 上下の中央 */
+}
